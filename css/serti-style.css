@@ -1,0 +1,17 @@
+/*Баннер*/
+.banner{
+  font-size: 20px;
+}
+
+/*Блок с сертификатами*/
+.serti{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/*Каждый сертификат*/
+.serti img{
+  padding: 10px;
+  width:45%;
+  box-shadow: 1px 1px 10px #a08686;
+}

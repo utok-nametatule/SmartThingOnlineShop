@@ -1,0 +1,184 @@
+/*Основной контент*/
+main{
+  margin: 1% 12% 5% 12%;
+}
+
+/*Ссылки в основном контенте*/
+main a{
+  margin: 10px;
+  font-family: Candara;
+  color: #000000;
+  text-decoration: none;
+}
+
+/*Контент без загаловка*/
+content{
+  display: flex;
+  flex-direction: row;
+}
+
+/*Блок с фильтрами*/
+aside{
+  width: 30%;
+  height: 700px;
+}
+
+/*Надписи*/
+label{
+  padding-left: 10px;
+}
+
+/*Выравнивание для категорий, брендов, стоимости и кнопки отфильтровать*/
+.categories, .brand, .cost, .cost>form, .submit{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #989595;
+}
+
+/*Для подписей, категорий, брендов и стоимости и также текст в них*/
+h3, .categories p, .brand p,.cost p{
+  padding: 5px;
+}
+
+/*Отдельно подписи*/
+h3{
+  font-weight: normal;
+  background-color: #adb2b5;
+  color: #f8f8f8;
+}
+
+/*При наведении на категорию, бренд*/
+.categories p:hover,.brand label:hover, .brand input:hover{
+  color:#c2c7cc;
+  cursor: pointer;
+}
+
+/*Для стоимости*/
+.cost form{
+  border: none; 
+  align-items: center;
+}
+
+/*Кнопка отфильтровать*/
+.submit button{
+  border: none;
+  background-color: #aa69aa;
+  align-content: center;
+  min-height: 50px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*При наведении на кнопку*/
+.submit button:hover{
+  background-color: #744274;
+}
+
+/*Товар */
+article{
+  width: 70%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  text-align: center;
+}
+
+/*Один отдельный товар*/
+figure{
+  width: 30%;  
+}
+
+/*При наведении на товар*/
+figure:hover{
+  box-shadow: 1px 1px 10px #ebe9e9;
+}
+
+/*Картинка в товаре*/
+.pics{
+  width: 60%;
+}
+
+/*Стоимость вещи*/
+.price{
+  font-size:20px;
+}
+
+/*Описание вещи*/
+.context{
+  font-size:18px;
+}
+
+/*----------ОТЗЫВЫ----------*/ 
+/*Блок комментариев*/
+.comments{
+  padding: 20px; 
+}
+
+/*Каждый комментарий*/
+.comment{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid #000000;
+  padding: 5px;
+}
+
+/*Картинка в комментарии*/
+.comment>img{
+  margin: -5px;
+  padding: 5px;
+  width: 3%;
+  border: 2px solid #000000;
+  border-top:none;
+  border-left: none;
+}
+
+/*Имя фамилия и оценка комментатора*/
+.comment>div{
+  width: 17%;
+}
+
+/*Оценка комментатора*/
+.comment span{
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+/*Текст комментария*/
+.comment>p{
+  width: 80%;
+  margin-top: 20px;
+}
+
+/*Чередования четных и нечетных комментариев*/
+.first{
+  background-color: #e7ccef;
+}
+
+.second{
+  background-color: #c7abce;
+}
+.newcomment{
+  padding: 10px;
+}
+.sub {
+    background: #993399;
+    border:none;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: box-shadow .4s ease;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.log-in-a:hover{
+    
+    color:#111111;
+    text-decoration:underline;
+}
+

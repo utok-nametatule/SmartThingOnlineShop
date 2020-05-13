@@ -1,0 +1,119 @@
+/*Основной контент*/
+main{
+  padding-bottom: 300px;
+}
+
+/*Картинки на основном контенте*/
+main img{
+  width: 50%;
+}
+
+/*Кнопки*/
+main button{
+  background-color: #efcfcf;
+  border: 1px solid ;
+}
+
+/*При наведении на кнопки*/
+main button:hover{
+  cursor: pointer;
+  background-color: #e6cece;
+  box-shadow: 1px 1px 2px black;
+}
+
+/*Поля количества*/
+main input{
+  width: 50px;
+}
+
+/*Картинка в кнопке очистить*/
+.clear>img{
+  width: 20%;
+}
+
+/*Таблица куда выводится корзина*/
+table {
+  border-spacing: 0 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+/*Строка таблицы*/
+tr{
+  background-color: #efcfcf;
+}
+
+/*Столбцы в первой строке*/
+th {
+  background-color: #efcfcf;
+  padding: 10px 20px;
+  background: #996666;
+  color: #ffcccc;
+  border-right: 2px solid; 
+  font-size: 0.9em;
+}
+
+/*Первый столбец первой строки*/
+th:first-child {
+  text-align: left;
+}
+
+/*Последний столбец первой строки*/
+th:last-child {
+  border-top: none;
+}
+/*Столбцы в таблцице*/
+td {
+  background-color: #efcfcf;
+  vertical-align: middle;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  
+  border-color: #967970;
+  border-style: solid;
+  
+  border-top-width: 2px ;
+  border-bottom-width: 2px ;
+  border-right-width: 1px ;
+  border-left-width: 1px ;
+}
+
+/*Второй столбец*/
+td:nth-child(2){
+  text-align: left;
+}
+
+/*Последний столбец*/
+td:last-child{
+  text-align: center;
+}
+
+/*Столбец с кнопкой оформить*/
+td.last{
+  border: none;
+  padding-top:100px;
+  background-color: #fff;
+}
+
+/*Кнопка оформить*/
+.last>a{
+    text-decoration: none;
+    padding: 20px;
+    background: #993399;
+    border:none;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #6d6464;
+}
+
+/*При наведении на кнопку оформить*/
+.last>a:hover{
+    background: #b944b9;
+}
+/*Итог*/
+.itog{
+  font-size: 16px;
+}

@@ -1,0 +1,33 @@
+/*Размер текста в контенте*/
+p, .info>a{
+  font-size: 20px;
+}
+/*Информационный блок*/
+.info{
+  display: flex;
+  flex-wrap: wrap;  
+}
+/*Блок 1 в информации*/
+.block1{
+  width: 30%;
+}
+/*Блок 2 в информации*/
+.block2{
+  width: 70%;
+}
+/*Картинка во 2 блоке*/
+.block2 img{
+  width: 100%;
+  box-shadow: 1px 1px 10px #484141;
+}
+/*Ссылка на сертификаты*/
+main a{  
+  padding: 10px;
+  font-family: Candara;
+  color: #000000;
+  width: 120px;
+}
+/*При наводке на ссылку*/
+main a:hover{
+  color: #c46262;
+}
